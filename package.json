@@ -2,7 +2,7 @@
   "name": "coverage-converter-clover",
   "version": "1.0.0",
   "description": "GitHub Action for converting Clover coverage reports to a simplified JSON format",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "ncc build index.js -o dist",
     "test": "jest",
