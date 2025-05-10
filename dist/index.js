@@ -42222,7 +42222,8 @@ function run() {
     // Set the output for the action
     core.setOutput('coverage-file', path);
   } catch (error) {
-    console.error(error);
+    console.error(error); // eslint-disable-line no-console
+
     core.setFailed(error.message);
   }
 }
